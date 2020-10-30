@@ -1,0 +1,27 @@
+{
+  "name": "article-jsonata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chalk": "^4.1.0",
+    "jsonata": "^1.8.3",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "xo": "^0.34.1"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true
+  }
+}
