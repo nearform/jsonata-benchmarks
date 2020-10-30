@@ -106,7 +106,10 @@ function jsAggregates(input) {
   const prizeLaureates = input.nobelPrizes.map(
     (prize) => prize.laureates.length
   );
+
+  // eslint-disable-next-line unicorn/no-reduce
   const sum = prizeLaureates.reduce((previous, cur) => previous + cur, 0);
+
   return {
     count: prizeLaureates.length,
     sum,

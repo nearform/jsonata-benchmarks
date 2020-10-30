@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "nodemon index.js",
+    "lint": "xo --fix"
   },
   "author": "",
   "license": "ISC",
@@ -14,11 +14,11 @@
     "chalk": "^4.1.0",
     "jsonata": "^1.8.3",
     "lodash": "^4.17.20",
-    "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.6"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "xo": "^0.34.1"
+    "xo": "^0.34.1",
+    "nodemon": "^2.0.6"
   },
   "xo": {
     "space": true,
