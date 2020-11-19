@@ -1,6 +1,6 @@
 # JSONata Benchmarks
 
-This repo provides the source of the benchmarks described in this Nearform Blog post.
+This repo provides the source of the benchmarks described in [this Nearform Blog post](https://www.nearform.com/blog/the-jsonata-performance-dilemma/).
 
 ## How to run
 
